@@ -1,0 +1,76 @@
+
+* {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black; /* Set default font color */
+    margin: 0;
+    padding: 0;
+}
+
+.graybackground{
+    background-color: gainsboro;
+}
+.header {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%; /* Adjusted to full width */
+    height: 110px;
+    background-color: tan;
+    z-index: 10; /* Ensures header is above other content */
+}
+
+.leftcolumn {
+    position: fixed;
+    left: 5px;
+    width: 16%;
+    max-width: 16%;
+    height: calc(100vh - 120px); /* Full height minus header */
+    top: 110px;
+    background-color: cornsilk;
+    z-index: 5;
+    text-align: left;
+    padding: 3px;
+}
+
+.middlebody {
+    position: absolute;
+    left: 16%;
+    top: 113px;
+    height: 2000px; /* Let content define height */
+    width: 70.25%;
+    background-color: white;
+    padding: 20px; /* Add some padding for content */
+}
+
+.rightcolumn {
+    position: fixed;
+    right: 5px;
+    width: 10%;
+    height: calc(100vh - 120px); /* Full height minus header */
+    top: 110px;
+    background-color: cornsilk;
+    z-index: 5;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 25px;
+    background-color: tan;
+    z-index: 10; /* Ensures footer is above other content */
+}
+
+.mountainscall{
+    color: green;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 14px;
+    padding: 2px;
+
+}
+
+.otherlinks{
+    
+}
